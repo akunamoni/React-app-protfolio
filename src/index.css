@@ -1,13 +1,221 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.course {
+    align-items: flex-start;
+    border: 0.5px solid;
+    border-color: #7a3199;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    overflow: hidden;
+    padding: 30px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .course .interactive-features {
+    color: #000000;
+    font-family: "Poppins", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.5px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .course .lorem-ipsum-is {
+    color: #000000;
+    font-family: "Poppins", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 208px;
+  }
+.overlap {
+    height: 2710px;
+    left: -770px;
+    position: absolute;
+    top: -751px;
+    width: 2574px;
+  }
+  
+.group {
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+  }
+  
+.overlap-group {
+    height: 1200px;
+    position: relative;
+    width: 1000px;
+  }
+  
+.polygon {
+    height: 737px;
+    left: -33px;
+    position: absolute;
+    width: 1078px;
+  }
+.polygon-2 {
+    height: 703px;
+    left: 477px;
+    position: absolute;
+    top: -140px;
+    width: 778px;
+  }
+  .ellipse {
+    background-color: #7a3199;
+    border-radius: 50%;
+    height: 850px;
+    left: -608px;
+    position: absolute;
+    top: -489px;
+    width: 916px;
+  }
+  #menu{
+    width: 445px;
+  }
+  #menu ul{
+    width: 300px;
+  }
+ .overlap-wrapper {
+    position: absolute;
+  }
+  
+  
+  .group-2 {
+    height: 343px;
+    left: 599px;
+    position: absolute;
+    width: 519px;
 }
+  
+.everyone-is-smiling {
+    height: 270px;
+    left: 598px;
+    object-fit: cover;
+    position: absolute;
+    width: 471px;
+}
+  
+.group-business {
+    height: 270px;
+    left: 545px;
+    object-fit: cover;
+    position: absolute;
+    width: 462px;
+}
+  
+.streamline-computer {
+    height: 130px;
+    left: 989px;
+    position: absolute;
+    top: 335px;
+    width: 130px;
+}
+  
+.solar-podcast {
+    height: 130px;
+    left: 1060px;
+    position: absolute;
+    top: 176px;
+    width: 135px;
+}
+.frame-2 {
+    position: absolute;
+    top: 625px;
+}
+  
+.course-2 {
+    height: 397px;
+    left: 46px;
+    position: absolute;
+    top: 49px;
+    width: 552px;
+}
+  
+   .design-component-instance-node {
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+  }
+  
+   .course-instance {
+    left: 0 !important;
+    position: absolute !important;
+    top: 214px !important;
+  }
+  
+   .course-3 {
+    left: 284px !important;
+    position: absolute !important;
+    top: 23px !important;
+  }
+  
+   .course-4 {
+    left: 284px !important;
+    position: absolute !important;
+    top: 237px !important;
+  }
+  
+   .frame-3 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    left: 750px;
+    position: absolute;
+    top: 126px;
+    width: fit-content;
+  }
+  .pngwing {
+    height: 441px;
+    left: 792px;
+    object-fit: cover;
+    position: absolute;
+    top: 535px;
+    width: 466px;
+  }
+  #pricing{
+    top: 1076px;
+    position: relative;
+  }
+  .width{
+    width: 350px;
+  }
+  .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Poppins", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 56px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14px;
+  }
+  #reviews{
+    top: 1150px;
+    position: relative;
+  }
+  .width-23rem{
+    width: 23rem !important;
+  }
+  .termsandservices{
+    background-image:  url("https://generation-sessions.s3.amazonaws.com/07da9340a55c3b7f630af296ca60aa90/img/polygon-2.svg");
+    background-size: 100% 100%;
+    position: relative;
+    top: 1275px;
+    height: 420px;
+  }
+
+
